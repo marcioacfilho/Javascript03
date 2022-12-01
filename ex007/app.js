@@ -1,4 +1,4 @@
-function verificar() {
+function verificar(){
 
     let numero = parseInt(document.getElementById("numero").value);
     let resposta = document.getElementById('resultado');
@@ -7,12 +7,11 @@ function verificar() {
 
 
     if (numero % 2 == 0) {
-        resposta.inneHTML = "numero par";
+        resposta.innerHTML = "numero par";
     }
     else {
-        resposta.inneHTML = "numero impar";
+        resposta.innerHTML = "numero impar";
     }
-
 
 
 }
