@@ -1,3 +1,4 @@
+/*2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.*/
 function PositivoOuNegativo(){
     let n1 = document.getElementById("numero1").value
     if(n1 >= 1){

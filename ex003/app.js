@@ -1,3 +1,4 @@
+/*3. Faça um Programa que verifique se uma letra digitada é "D" ou "N". Conforme a letra escrever: D - Dia, N - noite, Período Inválido.*/
 function VerificarPeriodo(){
     let periodo = document.getElementById("periodo").value
     if(periodo == "d"){
